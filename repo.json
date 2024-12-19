@@ -1,19 +1,8 @@
-{ 
-    "name": "My CloudStream Plugins", 
-    "version": "1.0", 
-    "plugins": [ 
-        { "name": "MyPlugin", 
-          "description": "Description of MyPlugin.", 
-          "version": "1.0", 
-          "downloadUrl": "https://example.com/myplugin.apk", 
-          "iconUrl": "https://example.com/myplugin-icon.png" 
-        }, 
-        { 
-            "name": "AnotherPlugin", 
-            "description": "Description of AnotherPlugin.", 
-            "version": "1.0", 
-            "downloadUrl": "https://example.com/anotherplugin.apk", 
-            "iconUrl": "https://example.com/anotherplugin-icon.png" 
-        } 
-    ] 
+{
+  "repositories": [
+    {
+      "name": "MyPluginRepo",
+      "url": "https://raw.githubusercontent.com/username/repo/main/plugin.json"
+    }
+  ]
 }
